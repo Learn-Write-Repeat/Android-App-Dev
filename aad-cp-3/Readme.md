@@ -24,7 +24,6 @@
     • Java break flow and conditionals.
     • Concept of threads and parallelism.
     • Working with preferences in android application.
-    • How to work with fragments in android.
     
     
 
