@@ -18,4 +18,13 @@
     • Images and Visual Polish.
     • Using external libraries to add audio in your application.
     • How to work with fragments in android.
+    
+### HTTP Networking
+    • How to parse jSON in an android application
+    • Java break flow and conditionals.
+    • Concept of threads and parallelism.
+    • Working with preferences in android application.
+    • How to work with fragments in android.
+    
+    
 
