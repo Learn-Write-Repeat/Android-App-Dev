@@ -54,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
         tv8 = findViewById(R.id.description);
         tv9 = findViewById(R.id.wind);
         Load_setting();
+        btn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+             getWeather(v);
+            }
+        });
 
     }
 
