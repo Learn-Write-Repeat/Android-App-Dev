@@ -25,6 +25,7 @@
                 android:id="@+id/editText"
                 android:textSize="20sp"
                 android:hint="Enter your city name"
+                android:fontFamily="sans-serif-light"
                 android:textColorHint="@android:color/white"
                 android:textColor="@android:color/white"
                 android:layout_width="match_parent"
@@ -52,6 +53,7 @@
                 android:layout_height="wrap_content"
                 android:text="Weather Forecast"
                 android:letterSpacing="0.03"
+                android:fontFamily="sans-serif-light"
                 android:textColor="@android:color/white"
                 android:layout_gravity="center"
                 android:textStyle="bold"
@@ -65,7 +67,7 @@
                 android:id="@+id/temperature"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
+                android:fontFamily="sans-serif-light"
                 android:textColor="@android:color/white"
                 android:gravity="center_horizontal"
                 android:hint="Temperature"
@@ -79,6 +81,7 @@
                 <TextView
                     android:id="@+id/city"
                     android:textSize="16sp"
+                    android:fontFamily="sans-serif-light"
                     android:textColor="@android:color/white"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
@@ -90,6 +93,7 @@
                     android:id="@+id/country"
                     android:textColor="@android:color/white"
                     android:textSize="16sp"
+                    android:fontFamily="sans-serif-light"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
@@ -123,6 +127,7 @@
                     <TextView
                         android:textSize="14sp"
                         android:text="Sunrise"
+                        android:fontFamily="sans-serif-light"
                         android:textColor="@android:color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
@@ -130,6 +135,7 @@
                         android:id="@+id/sunrise"
                         android:textColor="@android:color/white"
                         android:textSize="16sp"
+                        android:fontFamily="sans-serif-light"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
@@ -154,11 +160,13 @@
                         android:textSize="14sp"
                         android:text="Sunset"
                         android:textColor="@android:color/white"
+                        android:fontFamily="sans-serif-light"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                     <TextView
                         android:id="@+id/sunset"
                         android:textSize="16sp"
+                        android:fontFamily="sans-serif-light"
                         android:textColor="@android:color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
@@ -185,11 +193,13 @@
                         android:textSize="14sp"
                         android:text="Humidity"
                         android:textColor="@android:color/white"
+                        android:fontFamily="sans-serif-light"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                     <TextView
                         android:id="@+id/humidity"
                         android:textSize="16sp"
+                        android:fontFamily="sans-serif-light"
                         android:textColor="@android:color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
@@ -225,12 +235,14 @@
                     <TextView
                         android:textSize="14sp"
                         android:text="Pressure"
+                        android:fontFamily="sans-serif-light"
                         android:textColor="@android:color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                     <TextView
                         android:id="@+id/pressure"
                         android:textSize="16sp"
+                        android:fontFamily="sans-serif-light"
                         android:textColor="@android:color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
@@ -255,6 +267,7 @@
                     <TextView
                         android:textSize="14sp"
                         android:text="Weather"
+                        android:fontFamily="sans-serif-light"
                         android:textColor="@android:color/white"
                         android:gravity="center"
                         android:layout_width="wrap_content"
@@ -262,6 +275,7 @@
                     <TextView
                         android:id="@+id/description"
                         android:textSize="16sp"
+                        android:fontFamily="sans-serif-light"
                         android:textColor="@android:color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
@@ -287,11 +301,13 @@
                         android:textSize="14sp"
                         android:text="Wind"
                         android:textColor="@android:color/white"
+                        android:fontFamily="sans-serif-light"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                     <TextView
                         android:id="@+id/wind"
                         android:textSize="16sp"
+                        android:fontFamily="sans-serif-light"
                         android:textColor="@android:color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
